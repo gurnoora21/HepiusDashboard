@@ -1,12 +1,50 @@
+
+  .queue {
+    margin-left: 250px;
+    margin-top: 0px;
+    border-radius: 10px;
+    table-layout: absolute;
+    width: 100%;
+  }
+  /* Column widths are based on these cells */
+  .row-ID {
+    width: 10%;
+  }
+  .row-name {
+    width: 40%;
+  }
+  .row-job {
+    width: 30%;
+  }
+  .row-email {
+    width: 20%;
+  }
+  .queue td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .queue th {
+    background: #25b7c4;
+    color: white;
+  }
+  .queue td,
+  .queue th {
+    text-align: left;
+    padding: 5px 10px;
+  }
+  .queue tr:nth-child(even) {
+    background: lightblue;
+  }
 /* The side navigation menu */
 .sidebar {
     margin: 0;
     padding: 0;
     width: 200px;
     background-color: #f1f1f1;
-    position: fixed;
+    position: absolute;
     height: 100%;
     overflow: auto;
+    max-height: 100%;
   }
   
   /* Sidebar links */
@@ -28,17 +66,6 @@
     background-color: #555;
     color: white;
   }
-
-  .center {
-    margin-left: 250px;
-    margin-right: auto;
-    margin-top: 0px;
-    border-radius: 25px;
-    background: #E7F6FF;
-    padding: 20px;
-    width: 200px;
-    height: 150px;
-  } 
   
   /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
   div.content {
@@ -47,7 +74,7 @@
     height: 1000px;
   }
   
-  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  /* On screens that are less than 700px wide, make the sidebar into a topbar 
   @media screen and (max-width: 700px) {
     .sidebar {
       width: 100%;
@@ -58,12 +85,12 @@
     div.content {margin-left: 0;}
   }
   
-  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+ On screens that are less than 400px, display the bar vertically, instead of horizontally
   @media screen and (max-width: 400px) {
     .sidebar a {
       text-align: center;
       float: none;
     }
-
-  }
+*/
+  
   
