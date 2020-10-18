@@ -1,13 +1,13 @@
 .queue {
   border-collapse: collapse;
   position: absolute;
-  margin-left: 250px;
+  margin-left: 19.5%;
   margin-right: auto;
-  margin-top: 300px;
+  margin-top: 22.5%;
 
   font-size: 0.9em;
   font-family: sans-serif;
-  min-width: 400px;
+  min-width: 40%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -44,9 +44,9 @@ th.Phone-Number{
 .assignments {
   border-collapse: collapse;
   position: fixed;
-  margin-left: 250px;
+  margin-left: 19.5%;
   margin-right: auto;
-  margin-top: 500px;
+  margin-top: 35%;
 
   font-size: 0.9em;
   font-family: sans-serif;
@@ -119,9 +119,9 @@ color: #25b7c4;
 .num_telenurse_queue{
   border-collapse: collapse;
   position: fixed;
-  margin-left: 500px;
+  margin-left: 19.5%;
   margin-right: 400px;
-  margin-top: -80px;
+  margin-top: 3%;
   
   font-size: 0.9em;
   font-family: sans-serif;
@@ -154,7 +154,7 @@ color: #25b7c4;
 .participating_facilities{
   border-collapse: collapse;
   position: fixed;
-  margin-left: 800px;
+  margin-left: 40%;
   margin-right: 900px;
   margin-top: -80px;
   
@@ -199,14 +199,9 @@ color: #25b7c4;
 .User{
   margin-left: 1360px;
   position: absolute;
-<<<<<<< HEAD
   margin-top: 125px;
   font-family: sans-serif;
   font-weight: bold;
-=======
-  margin-top: 130px;
-    font-family: sans-serif;
->>>>>>> MyFinal
 }
   /* Sidebar links */
   .sidebar a {
