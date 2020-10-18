@@ -171,6 +171,7 @@ color: #25b7c4;
 .participating_facilities tbody tr:last-of-type {
   border-bottom: 2px solid #25b7c4;
     }
+    
   /* Sidebar links */
   .sidebar a {
     display: block;
