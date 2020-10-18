@@ -79,7 +79,98 @@ border-bottom: 2px solid #25b7c4;
 font-weight: bold;
 color: #25b7c4;
 }
+
+.num_patient_queue{
+  border-collapse: collapse;
+  position: fixed;
+  margin-left: 250px;
+  margin-right: 600px;
+  margin-top: 80px;
+
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 100px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.num_patient_queue thead tr{
+  background-color:  #25b7c4;;
+  color: #ffffff;
+  text-align: left;
+}
+.num_patient_queue tbody tr {
+  border-bottom: 1px solid #dddddd;
+  }
   
+.num_patient_queue tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+  }
+    
+.num_patient_queue tbody tr:last-of-type {
+  border-bottom: 2px solid #25b7c4;
+  }
+
+.num_telenurse_queue{
+  border-collapse: collapse;
+  position: fixed;
+  margin-left: 500px;
+  margin-right: 400px;
+  margin-top: 80px;
+  
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 100px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+  
+.num_telenurse_queue thead tr{
+  background-color:  #25b7c4;;
+  color: #ffffff;
+  text-align: left;
+}
+
+.num_telenurse_queue tbody tr {
+  border-bottom: 1px solid #dddddd;
+  }
+    
+.num_telenurse_queue tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+  }
+      
+.num_telenurse_queue tbody tr:last-of-type {
+  border-bottom: 2px solid #25b7c4;
+  }
+
+.participating_facilities{
+  border-collapse: collapse;
+  position: fixed;
+  margin-left: 800px;
+  margin-right: 900px;
+  margin-top: 80px;
+  
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 500px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+  
+.participating_facilities thead tr{
+  background-color:  #25b7c4;;
+  color: #ffffff;
+  text-align: left;
+}
+
+.participating_facilities tbody tr {
+  border-bottom: 1px solid #dddddd;
+  }
+    
+.participating_facilities tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+  }
+      
+.participating_facilities tbody tr:last-of-type {
+  border-bottom: 2px solid #25b7c4;
+    }
   /* Sidebar links */
   .sidebar a {
     display: block;
