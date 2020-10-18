@@ -1,14 +1,14 @@
- .queue {
-    border-collapse: collapse;
-    position: absolute;
-    margin-left: 250px;
-    margin-right: auto;
-    margin-top: 200px;
-  
-    font-size: 0.9em;
-    font-family: sans-serif;
-    min-width: 400px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+.queue {
+  border-collapse: collapse;
+  position: absolute;
+  margin-left: 250px;
+  margin-right: auto;
+  margin-top: 300px;
+
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
 .queue thead tr {
@@ -19,7 +19,7 @@
 
 .queue th,
 .queue td {
-    padding: 12px 15px;
+  padding: 12px 15px;
 }
 
 .queue tbody tr {
@@ -44,7 +44,7 @@
   position: fixed;
   margin-left: 250px;
   margin-right: auto;
-  margin-top: 400px;
+  margin-top: 500px;
 
   font-size: 0.9em;
   font-family: sans-serif;
@@ -61,7 +61,7 @@ text-align: left;
 .assignments th,
 .assignments td {
   padding: 12px 15px;
-}
+  }
 
 .assignments tbody tr {
 border-bottom: 1px solid #dddddd;
@@ -80,13 +80,12 @@ font-weight: bold;
 color: #25b7c4;
 }
 
-<<<<<<< HEAD
 .num_patient_queue{
   border-collapse: collapse;
   position: fixed;
   margin-left: 250px;
   margin-right: 600px;
-  margin-top: 80px;
+  margin-top: -80px;
 
   font-size: 0.9em;
   font-family: sans-serif;
@@ -94,11 +93,15 @@ color: #25b7c4;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
+.num_patient_queue th,
+.num_patient_queue td {
+  padding: 12px 15px;
+  }
 .num_patient_queue thead tr{
   background-color:  #25b7c4;;
   color: #ffffff;
   text-align: left;
-}
+  }
 .num_patient_queue tbody tr {
   border-bottom: 1px solid #dddddd;
   }
@@ -116,19 +119,23 @@ color: #25b7c4;
   position: fixed;
   margin-left: 500px;
   margin-right: 400px;
-  margin-top: 80px;
+  margin-top: -80px;
   
   font-size: 0.9em;
   font-family: sans-serif;
   min-width: 100px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-}
-  
+  }
+
+.num_telenurse_queue th,
+.num_telenurse_queue td {
+  padding: 12px 15px;
+  }
 .num_telenurse_queue thead tr{
   background-color:  #25b7c4;;
   color: #ffffff;
-  text-align: left;
-}
+  text-align: center;
+  }
 
 .num_telenurse_queue tbody tr {
   border-bottom: 1px solid #dddddd;
@@ -147,36 +154,23 @@ color: #25b7c4;
   position: fixed;
   margin-left: 800px;
   margin-right: 900px;
-  margin-top: 80px;
+  margin-top: -80px;
   
   font-size: 0.9em;
   font-family: sans-serif;
   min-width: 500px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-=======
-.dot {
-  height: 100px;
-  width: 100px;
-  margin-left: 1120px;
-  margin-top: 15px;
-  background-color: rgb(126, 126, 126);
-  border-radius: 50%;
-  display: inline-block;
-}
+  }
 
-.User{
-  margin-left: 1115px;
-  position: absolute;
-  margin-top: 125px;
-    font-family: sans-serif;
->>>>>>> 76f11dbaf0c5ff7ffe462138a099861b2920b5b3
-}
-  
+.participating_facilities th,
+.participating_facilities td {
+  padding: 12px 15px;
+  }
 .participating_facilities thead tr{
   background-color:  #25b7c4;;
   color: #ffffff;
-  text-align: left;
-}
+  text-align: center;
+  }
 
 .participating_facilities tbody tr {
   border-bottom: 1px solid #dddddd;
@@ -188,8 +182,25 @@ color: #25b7c4;
       
 .participating_facilities tbody tr:last-of-type {
   border-bottom: 2px solid #25b7c4;
-    }
-    
+  }
+
+.dot {
+  height: 100px;
+  width: 100px;
+  margin-left: 1350px;
+  margin-top: 15px;
+  background-color: rgb(126, 126, 126);
+  border-radius: 50%;
+  display: inline-block;
+  }
+
+.User{
+  margin-left: 1360px;
+  position: absolute;
+  margin-top: 125px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
   /* Sidebar links */
   .sidebar a {
     display: block;
