@@ -1,13 +1,13 @@
 .queue {
   border-collapse: collapse;
   position: absolute;
-  margin-left: 19.5%;
+  margin-left: 250px;
   margin-right: auto;
-  margin-top: 22.5%;
+  margin-top: 300px;
 
   font-size: 0.9em;
   font-family: sans-serif;
-  min-width: 40%;
+  min-width: 400px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -44,9 +44,9 @@ th.Phone-Number{
 .assignments {
   border-collapse: collapse;
   position: fixed;
-  margin-left: 19.5%;
+  margin-left: 250px;
   margin-right: auto;
-  margin-top: 35%;
+  margin-top: 500px;
 
   font-size: 0.9em;
   font-family: sans-serif;
@@ -119,9 +119,9 @@ color: #25b7c4;
 .num_telenurse_queue{
   border-collapse: collapse;
   position: fixed;
-  margin-left: 19.5%;
+  margin-left: 500px;
   margin-right: 400px;
-  margin-top: 3%;
+  margin-top: -80px;
   
   font-size: 0.9em;
   font-family: sans-serif;
@@ -154,7 +154,7 @@ color: #25b7c4;
 .participating_facilities{
   border-collapse: collapse;
   position: fixed;
-  margin-left: 40%;
+  margin-left: 800px;
   margin-right: 900px;
   margin-top: -80px;
   
