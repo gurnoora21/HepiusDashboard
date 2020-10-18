@@ -16,7 +16,9 @@
   color: #ffffff;
   text-align: left;
 }
-
+th.Phone-Number{
+  width:50%;
+}
 .queue th,
 .queue td {
     padding: 12px 15px;
