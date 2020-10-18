@@ -1,6 +1,6 @@
 :root {
-    --body_gradient_left: #A6E2E5;
-    --body_gradient_right: #A6E2E5;
+    --body_gradient_left: #25c481, #25b7c4;
+    --body_gradient_right: #25c481, #25b7c4;
     --form_bg: #ffffff;
     --input_bg: #E5E5E5;
     --input_hover: #eaeaea;
