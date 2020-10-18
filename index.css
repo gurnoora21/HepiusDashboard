@@ -6,22 +6,25 @@
     position: absolute;
     width: 100%;
     border-radius: 25px;
-    background-color: aquamarine;
+    background-color: rgb(151, 255, 255);
     padding: 20px;
     width: 200px;
     height: 150px;
   }
   /* Column widths are based on these cells */
-  .row-ID {
+  .row-Patient-Name {
     width: 10%;
   }
-  .row-name {
+  .row-PhoneNumber {
     width: 40%;
   }
-  .row-job {
+  .row-GeotaggedLocation {
     width: 30%;
   }
-  .row-email {
+  .row-Symptoms {
+    width: 20%;
+  }
+  .row-InsuranceNumber {
     width: 20%;
   }
   .queue td {
@@ -40,48 +43,49 @@
   .queue tr:nth-child(even) {
     background: lightblue;
   }
-  
-  .Facility {
+
+  .assignments {
     margin-left: 250px;
     margin-top: 400px;
     table-layout: absolute;
     position: absolute;
     width: 100%;
     border-radius: 25px;
-    background-color: aquamarine;
+    background-color:  rgb(151, 255, 255);
     padding: 20px;
     width: 200px;
     height: 150px;
   }
   /* Column widths are based on these cells */
-  .row-ID {
+  .row-PatientName {
     width: 10%;
   }
-  .row-name {
+  .row-AssignedMedicalFacility {
     width: 40%;
   }
-  .row-job {
+  .row-Stage {
     width: 30%;
   }
-  .row-email {
+  .row-WaitTime {
     width: 20%;
   }
-  .Facility td {
+  .assignments td {
     overflow: hidden;
     text-overflow: ellipsis;
   }
-  .Facility th {
+  .assignments th {
     background: #25b7c4;
     color: white;
   }
-  .Facility td,
-  .Facility th {
+  .assignments td,
+  .assignments th {
     text-align: left;
     padding: 5px 10px;
   }
-  .Facility tr:nth-child(even) {
+  .assignments tr:nth-child(even) {
     background: lightblue;
   }
+
 /* The side navigation menu */
 .sidebar {
     margin: 0;
