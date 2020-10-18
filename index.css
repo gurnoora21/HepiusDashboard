@@ -199,14 +199,9 @@ color: #25b7c4;
 .User{
   margin-left: 1360px;
   position: absolute;
-<<<<<<< HEAD
   margin-top: 125px;
   font-family: sans-serif;
   font-weight: bold;
-=======
-  margin-top: 130px;
-    font-family: sans-serif;
->>>>>>> MyFinal
 }
   /* Sidebar links */
   .sidebar a {
